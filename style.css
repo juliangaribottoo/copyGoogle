@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 3rem;
+}
+
+.navHeader{
+    width: 20%;
+    float: right;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.navHeader > a{
+    padding: 1em;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.767)
+}
+
+.googleIcon{
+    margin: auto;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+.navHeader > p{
+    width: 5px;
+    height: 5px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 1em;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.mainGoogle{
+    font-size: 8rem;
+    margin-top: 1em;
+}
+
+.searchGoogle{
+    width: 40%;
+    display: block;
+    margin: auto;
+    height: 3em;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+.buttonSearch{
+    background-color: rgba(212, 212, 212, 0.171);
+    border: none;
+    padding: .8em;
+    margin: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.buttonSearch:hover{
+    border: 1px solid rgba(128, 128, 128, 0.37);
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.37);
+}
